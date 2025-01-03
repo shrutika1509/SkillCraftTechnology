@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Floral Petals </title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Blooming Flowers</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#flowers">Flowers</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero">
+    <h2>Fresh Flowers for Every Occasion</h2>
+    <p>Delivering smiles one bouquet at a time.</p>
+    <button onclick="alert('Shop Now!')">Shop Now</button>
+  </section>
+
+  <section id="flowers" class="container">
+    <h2>Featured Flowers</h2>
+    <div class="flower-grid">
+      <div class="flower-card">
+        <img src="Modern Wedding Flowers Arrangements.jpg" alt="Rose">
+        <h3>Roses</h3>
+        <p>Elegant and timeless, perfect for expressing love.</p>
+      </div>
+      <div class="flower-card">
+        <img src="flower.jpg" alt="Tulip">
+        <h3>Tulips</h3>
+        <p>Bright and cheerful, great for any occasion.</p>
+      </div>
+      <div class="flower-card">
+        <img src="lily.jpg" alt="Lily">
+        <h3>Lilies</h3>
+        <p>Classic beauty, ideal for showing sympathy or congratulations.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="container">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea><br>
+      
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Blooming Flowers. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
